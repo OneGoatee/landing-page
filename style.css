@@ -129,3 +129,31 @@ ul {
 .card-text {
   text-align: center;
 }
+
+.quote {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 130px 0;
+  background-color: #e5e7eb;
+}
+
+.quote .container {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  align-self: flex-end;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
