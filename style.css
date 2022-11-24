@@ -157,3 +157,40 @@ ul {
   font-size: 24px;
   font-weight: bold;
 }
+
+.call-to-action {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.call-to-action .container {
+  background-color: #3b82f6;
+  color: #f9faf8;
+  border-radius: 15px;
+  padding: 60px 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.left-panel-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.right-panel {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.cta-btn {
+  border-radius: 10px;
+  border: #f9faf8 2px solid;
+  background-color: #3b82f6;
+  color: #f9faf8;
+  padding: 5px 40px;
+  font-size: 18px;
+}
